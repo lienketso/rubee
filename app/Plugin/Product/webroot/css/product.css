@@ -1,0 +1,168 @@
+@CHARSET "ISO-8859-1";
+
+.ct_title{
+	width:1000px;
+	height:30px;
+	background:#e0e0e0;
+	overflow:hidden;
+	
+}
+.ct_title li{
+	float:left;
+	margin-left:5px;
+	height:30px;
+	line-height:30px;
+}
+
+.ct_title a{
+	color:#7f7f7f;
+	padding-left:10px;
+}
+
+.li_cuoi a{
+	color:#ec1c23;
+}
+
+
+#div_img{
+	
+	border:1px  solid #d6d6d6;
+}
+
+#div_img img{
+	width:370px;
+	height:240px;
+}
+
+
+#thumblist a{
+	float:left;
+	margin-left:9px;
+}
+
+#thumblist img{
+	width:110px;
+	height:90px;
+	border:1px solid #d5d5d5;
+	
+}
+
+.tb_chitiet td{
+	vertical-align:top;
+}
+
+.titleNews1 {
+	color:#00152e;
+	font-weight:bold;
+	
+}
+
+.p_price{
+	font-size:18px;
+	color:#ec1c23;
+	font-weight:bold;
+}
+
+.div_spcl {
+	width:97%;
+	overflow:hidden;
+	
+}
+
+
+
+.title_cl{
+	height:30px;
+	background:#e5e5e5;
+	line-height:30px;
+	padding-left:10px;
+}
+.nav{
+	width:100%;
+	overflow:hidden;
+	border-bottom:1px solid #c3c3c3;
+	height:27px;
+	position:relative;
+}
+.nav li{ 
+	width:150px;
+	height:27px;
+	line-height:27px;
+	text-align:center;
+	float:left;
+	border:1px solid #c3c3c3;
+	border-radius:5px 5px 0px 0px;
+	margin-right:10px;
+	overflow:hidden;
+}
+
+#tab1,#tab2{
+		padding:10px;
+		
+		overflow:hidden;		
+	}
+.current{
+	height:27px;
+	background:url(../images/li_chon.png) repeat-x !important;
+	padding:7px 5px !important;
+}	
+.ct_right {
+	width:205px;
+	float:left;
+	overflow:hidden;
+	margin-top:10px;
+}	
+
+
+.div_right1 {
+	
+	border:1px solid #d5d5d5;
+	border-radius:5px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+.div_right1 p{
+	height:33px;
+	line-height:33px;
+	border-bottom:1px solid #d5d5d5;
+	background:#f4f4f4;
+	text-align:center;
+	color:#6b6b6b;
+	font-weight:bold;
+	text-transform:uppercase;
+	
+}
+
+.div_right1  li{
+	height:25px;
+	line-height:25px;
+	background:url(../images/gia.png) left center no-repeat;
+	margin-left:5px;
+}
+.div_right1  li a{
+	color:#6b6b6b;
+	padding-left:10px;
+}
+
+
+.div2 li{
+		margin-left:10px !important;
+}
+
+.div2 a{
+	padding-left:20px !important;
+}
+
+.div_quangcao_right{
+	width:203px;
+	border:1px solid #d5d5d5;
+	border-radius:5px;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+
+.div_quangcao_right img{
+
+
+}

@@ -1,0 +1,212 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+#cssmenu {
+  font-family: "Source Sans Pro";
+  font-size: 10px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+#cssmenu > ul li#responsive-tab {
+  display: none;
+  /* Hide for large screens */
+
+}
+#cssmenu > ul li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+#cssmenu > ul li.right {
+  float: right;
+}
+
+#cssmenu > ul li.has-sub {
+  position: relative;
+}
+#cssmenu > ul li.has-sub:hover ul {
+  display: block;
+}
+#cssmenu > ul li.has-sub ul {
+  display: none;
+  width: 250px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color:rgba(0, 0, 0, 0.8);
+	color:#29bca3;
+	border-bottom:0px;
+}
+#cssmenu > ul{
+  margin-bottom: 0px;
+}
+#cssmenu > ul li.has-sub ul li {
+  display: block;
+}
+#cssmenu > ul li.has-sub > a {
+  background-image: url('cssmenu/images/caret.png');
+  background-repeat: no-repeat;
+  background-position: 90% -95%;
+}
+#cssmenu > ul li.has-sub > a.active,
+#cssmenu > ul li.has-sub > a:hover {
+  background-position: 90% 195%;
+}
+#cssmenu > ul li a {
+  display: block;
+   padding: 4px 17px 12px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+#cssmenu > ul li a.active,
+#cssmenu > ul li a:hover {
+  color: #29bca3;
+  text-shadow: 0px 1px 0px #000;
+}
+#cssmenu > ul li.has-sub ul.submenu_sanpham {
+    width: 500px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #29bca3;
+    border-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#cssmenu > ul li.has-sub ul.submenu_sanpham li{
+    display: block;
+    width: 50%;
+    float: left;
+    border-right: 1px solid #555;
+}
+@media (max-width: 600px) {
+  #cssmenu > ul {
+    width: 100%;
+  }
+  #cssmenu > ul li#responsive-tab {
+    display: block;
+  }
+  #footer-widget1 {
+    display: none;
+  }
+  #imgview {
+  height: 80px;
+}
+
+  #filters li
+  {
+  width: 100%;
+  }
+  #filters
+  {
+    display: none;
+  }  
+  
+   #cssmenu > ul li a#logo-image {
+    display: none;
+  }
+  #cssmenu > ul li#responsive-tab a.btn_menu_mobile {
+    background: url('../images/btn_menu.png') no-repeat;
+    width:20px;
+    float:right;
+        margin-right: 15px;
+        margin-top: 20px;
+  }
+  #cssmenu > ul li#responsive-tab a:hover {
+
+    background-position: 95% 45%;
+  }
+  #cssmenu > ul li {
+    display: none;
+  }
+  #PromoFooter{
+    display: none;
+  }
+  #download{
+    display: none;
+  }
+  #cssmenu > ul li.right {
+    float: none;
+  }
+  #cssmenu > ul li.has-sub {
+    position: relative;
+  }
+  #cssmenu > ul li.has-sub ul {
+    display: block;
+    position: static;
+    width: 100%;
+
+    border: 0 none;
+  }
+  #cssmenu > ul li.has-sub ul li {
+    display: block !important;
+  }
+  #cssmenu > ul li.has-sub ul li a span {
+    display: block;
+    padding-left: 24px;
+  }
+  #cssmenu > ul li.has-sub > a {
+    background-image: none;
+  }
+  .logo_mobile{
+    float: left;
+    width:30%;
+  }
+  .right_header{
+    float: right;
+    width: 70%;
+  }
+  .phone_mobile{
+    background: url('../images/bg_header_mobile.png') no-repeat;
+    float: right;
+    padding-left: 65px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .phone_mobile p{
+    padding: 0px;
+  }
+  #cssmenu > ul li p a{
+      font-size: 16px !important;
+    font-weight: bold;
+    padding: 0 !important;
+    margin-bottom: 4px;
+  }
+  #cssmenu > ul li.has-sub ul.submenu_sanpham {
+   	width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #29bca3;
+    border-bottom: 0px;
+    overflow: hidden;
+    padding-left: 5px;
+}
+#cssmenu > ul li.has-sub ul.submenu_sanpham li{
+    display: block;
+    width: 100%;
+	}
+	#cssmenu > ul li#responsive-tab a.btn_menu_mobile i{
+		display: none;
+	}
+}
+
+
+/* Make sure they show even if hidden in mobile view by JS */
+@media (min-width: 600px) {
+  #cssmenu > ul > li.collapsed {
+    display: inline-block !important;
+    *display: inline;
+    zoom: 1;
+  }
+  #cssmenu > ul ul li.collapsed {
+    display: block !important;
+  }
+}
+

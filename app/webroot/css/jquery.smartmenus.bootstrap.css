@@ -1,0 +1,98 @@
+
+.navbar-nav .sub-arrow, .navbar-nav .collapsible .sub-arrow {
+    border-color: -moz-use-text-color transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 4px;
+    display: inline-block;
+    height: 0;
+    margin-left: 6px;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: hidden;
+    position: static;
+    vertical-align: middle;
+    width: 0;
+}
+.navbar-fixed-bottom .sub-arrow {
+    border-bottom: 4px solid;
+    border-top: 4px dashed transparent;
+    margin-top: -5px;
+}
+.navbar-nav ul .sub-arrow {
+    border-bottom: 4px dashed transparent;
+    border-left: 4px solid;
+    border-top: 4px dashed transparent;
+    margin-right: 15px;
+    margin-top: 6px;
+    position: absolute;
+    right: 0;
+}
+.navbar-nav ul a.has-submenu {
+    padding-right: 30px;
+}
+.navbar-nav span.scroll-up, .navbar-nav span.scroll-down {
+    display: none;
+    height: 20px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+}
+.navbar-nav span.scroll-up-arrow, .navbar-nav span.scroll-down-arrow {
+    border-color: transparent transparent -moz-use-text-color;
+    border-style: dashed dashed solid;
+    border-width: 7px;
+    height: 0;
+    left: 50%;
+    margin-left: -8px;
+    overflow: hidden;
+    position: absolute;
+    top: -2px;
+    width: 0;
+}
+.navbar-nav span.scroll-down-arrow {
+    border-color: -moz-use-text-color transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 7px;
+    top: 6px;
+}
+.navbar-nav .collapsible ul .dropdown-menu > li > a, .navbar-nav .collapsible ul .dropdown-menu .dropdown-header {
+    padding-left: 35px;
+}
+.navbar-nav .collapsible ul ul .dropdown-menu > li > a, .navbar-nav .collapsible ul ul .dropdown-menu .dropdown-header {
+    padding-left: 45px;
+}
+.navbar-nav .collapsible ul ul ul .dropdown-menu > li > a, .navbar-nav .collapsible ul ul ul .dropdown-menu .dropdown-header {
+    padding-left: 55px;
+}
+.navbar-nav .collapsible ul ul ul ul .dropdown-menu > li > a, .navbar-nav .collapsible ul ul ul ul .dropdown-menu .dropdown-header {
+    padding-left: 65px;
+}
+.navbar-nav .dropdown-menu > li > a {
+    white-space: normal;
+}
+.navbar-nav ul.sm-nowrap > li > a {
+    white-space: nowrap;
+    color: #555;
+}
+.navbar-right ul.dropdown-menu {
+    left: 0;
+    right: auto;
+}
+.navbar-nav .collapsible ul {
+    display: none;
+    left: auto !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    position: static !important;
+    top: auto !important;
+    width: auto !important;
+}
+.navbar-nav .collapsible ul.sm-nowrap > li > a {
+    white-space: normal;
+}
+.navbar-nav .collapsible iframe {
+    display: none;
+}

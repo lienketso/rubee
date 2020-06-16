@@ -1,0 +1,51 @@
+* {margin: 0; padding: 0}
+#popup {
+width: 70%;
+top: 20px;
+border: 1px solid #090909;
+position: fixed;
+background: #fff;
+margin: 0 auto;
+z-index:2;
+}
+
+#backgroundPopup1{
+z-index:99998;
+}
+#popupContact1 {
+z-index:999999;
+background: none!important;
+top: 3%!important;
+text-align: center;
+}
+#popupContactClose1{
+background:url(../popup/close.png) no-repeat scroll center top transparent;
+border:medium none;
+color:#909090;
+height:50px;
+position:absolute;
+margin-right: 379px;
+right:0;
+text-decoration:none;
+top:1%;
+width:95px;
+}
+#popupInner1,#popupContent1 {
+position: relative;
+width: 100%;
+height: 100%;
+}
+
+
+    canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: fixed;
+    }
+
+    canvas.flare {
+      opacity: 0;
+    }

@@ -1,0 +1,128 @@
+.contente_detail_pro{
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom:0;
+    top:0;
+    background-color: #fff;
+}
+.pop_detai{
+    background-color: #edeae3;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.left_pop{
+    width: 100%;
+    background-color:#fff;
+}
+.left_pop img{
+    width: 100%;
+}
+.left_pop img:last-child{
+    margin-bottom:0px;
+}
+.right_pop{
+    width: 100%;
+    padding: 40px;
+    padding-top: 13px;
+}
+.btn_tuvan{
+    width: 100%;
+    height: 40px;
+    background-color: #29baa0;
+    display: block;
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: 'RobotoCondensedRegular' !important;
+    margin-top: 70px;
+    cursor:pointer;
+}
+.btn_tuvan:hover{
+    background-color: #08af92;
+}
+.btn_tuvan img{
+    margin-right:10px;
+}
+.btn_close{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+.right_pop h2{
+   font-size: 26px;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding-top: 35px;
+    font-family: 'RobotoCondensedBold' !important;
+    color:#414042;
+}
+.right_pop h2:before{
+    content: "";
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    margin-top: -15px;
+    background-color: #27b999;
+}
+.right_pop .infomation h3{
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-family: 'RobotoCondensedBold' !important;  
+    color:#414042; 
+    line-height:30px; 
+}  
+
+.right_pop .infomation p.company{
+       text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'RobotoCondensedRegular' !important;
+}
+.right_pop .infomation,.right_pop .description{
+    border-bottom: 2px solid #eaecee;
+    font-family: 'RobotoCondensedRegular' !important;
+    width:70%;
+    float: left;
+}
+.right_pop .description p{
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 15px;
+    font-family: 'RobotoCondensedRegular' !important;
+}
+.right_pop .left_addthis{
+    bottom: 30px;
+    position: absolute;
+}
+.view_date{
+    width: 30%;
+    height: 40px;
+    color:#333;
+    font-size: 12px;
+    line-height: 40px;
+    float: right;
+    text-align: right;
+}
+.view_date span{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+@media(max-width:468px){
+    .right_pop .infomation, .right_pop .description{
+     width:100%;
+    }
+    .view_date{
+    width:100%;
+    }
+}

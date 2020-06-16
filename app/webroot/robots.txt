@@ -1,0 +1,13 @@
+User-agent:*
+Allow:/
+Sitemap:http://rubee.com.vn/inconvertibility_index.xml
+Sitemap:http://rubee.com.vn/inconvertibility795.xml
+Sitemap:http://rubee.com.vn/inconvertibility1345.xml
+Sitemap:http://rubee.com.vn/inconvertibility801.xml
+Sitemap:http://rubee.com.vn/inconvertibility1950.xml
+Sitemap:http://rubee.com.vn/inconvertibility207.xml
+Sitemap:http://rubee.com.vn/inconvertibility1248.xml
+Sitemap:http://rubee.com.vn/inconvertibility1090.xml
+Sitemap:http://rubee.com.vn/inconvertibility943.xml
+Sitemap:http://rubee.com.vn/inconvertibility631.xml
+Sitemap:http://rubee.com.vn/inconvertibility1576.xml

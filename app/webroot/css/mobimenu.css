@@ -1,0 +1,32 @@
+#responsive-tab
+{
+   position: fixed;
+   top: 0px;
+    z-index: 9999;
+    width: 100%;
+    background: #333d46;
+    left: 0;
+}
+#cssmenu .collapsed
+{
+    z-index: 999;
+   width: 100%;
+   padding-top: 10px;
+}
+
+#body
+{
+    margin-top: 30px;
+}
+#slidehome
+{
+    margin-top: 30px;
+}
+#cssmenu ul
+{
+   margin-top: 24px; 
+}
+.footer-widget
+{
+    width: 100%!important;
+}

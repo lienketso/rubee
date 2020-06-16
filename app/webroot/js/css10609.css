@@ -1,0 +1,23 @@
+.bottomAdv{width:100%; *padding:10px 0px 0px;_padding:10px 0px 0px; float:left;}
+.promo{width:110%; height: 124px; overflow: hidden; margin-left: 12px;}			
+.promo-left{width: 9px; height: 122px; background: url(../images/testimonials-left.png) no-repeat 0px 0px; margin-top: 2px; overflow: hidden;}		
+.promo-mid{width:530px; height: 122px; overflow: hidden; margin-top: 2px; padding-left: 8px;}
+.promo-slider{width:970px; padding-top: 16px; overflow: hidden;}
+.promo-slider #promoitems{height: 98px; overflow: hidden;}
+.promo-slider .item{width: 106px; height: 106px; overflow: hidden;float: left;}
+.promo-slider .item a{text-decoration: none; color: #000;}
+.promo-slider .item img{width: 80px; height: 80px; border: solid 1px #97a2aa; margin: 3px 5px 0 0; border-radius: 40px; }
+.promo-slider .item p{margin: 0px; padding: 0px; font: normal 11px arial; margin-right: 5px;}
+.promo-slider .item .title{font-weight: bold;}		
+.promo-slider .item .lead{color: #000;}
+.promo-right{width: 8px; height: 122px; background: url(../images/promotip2.png) no-repeat -10px; margin-top: 2px;}			
+.promo-page{position: relative; height: 30px; width: 20px; left: 0px; overflow: hidden; top: 50px;}
+.promo-page #slideprev{width: 14px; height: 30px; background: url(../images/testimonials-left.png) no-repeat 0px 0px; margin-top: 2px; overflow: hidden;}
+.promo-page #slidenext{width: 14px; height: 30px; background: url(../images/testimonials-right.png) no-repeat 0px 0px; margin-top: 2px; overflow: hidden;}
+.promo-page .slideseper{border-left: dotted 1px #515151; width: 1px; height: 11px; float: left; line-height: 11px;}
+.promo-title{position: relative; width: 188px; height: 18px; top: -124px; left: -14px;}
+
+.fl {
+    float: left;
+    margin-top: 4px;
+}

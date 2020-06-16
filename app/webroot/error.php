@@ -1,0 +1,1 @@
+After some additional, small investments through the end of 1998 to early 1999,[28] a new $25 million round of funding was announced on June 7, 1999,[30] with major investors including the venture capital firms Kleiner Perkins and Sequoia Capital.[27] .

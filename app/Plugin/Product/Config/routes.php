@@ -1,0 +1,4 @@
+<?php 
+    Router::connect('/danh-sach-san-pham/*',array('plugin'=>'Product','controller' => 'product','action' => 'index'));	    Router::connect('/chi-tiet-san-pham/*',array('plugin'=>'Product','controller' => 'product','action' => 'detail'));		Router::connect('/gio-hang', array('plugin'=>'Product','controller' => 'product', 'action' => 'viewshopingcart'));		Router::connect('/them-vao-gio/*', array('plugin'=>'Product','controller' => 'product', 'action' => 'addshopingcart'));		Router::connect('/loc-theo-gia/*', array('plugin'=>'Product','controller' => 'product', 'action' => 'loc'));		Router::connect('/sua-gio-hang/*', array('plugin'=>'Product','controller' => 'product', 'action' => 'updateshopingcart1'));		Router::connect('/tim-kiem', array('plugin'=>'Product','controller' => 'product', 'action' => 'search'));		Router::connect('/dat-mua', array('plugin'=>'Product','controller' => 'product', 'action' => 'datmua'));
+?>
+  
