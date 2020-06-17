@@ -1,7 +1,7 @@
 <?php
 session_start();
-define('DOMAINAD','http://'.$_SERVER["HTTP_HOST"].'/admin/');
-define('DOMAIN','http://'.$_SERVER["HTTP_HOST"].'/');
+define('DOMAINAD','http://'.$_SERVER["HTTP_HOST"].'/rubee/admin/');
+define('DOMAIN','http://'.$_SERVER["HTTP_HOST"].'/rubee/');
 define('IMAGEAD', DOMAINAD . IMAGES_URL);
 CakePlugin::loadAll();
 /**

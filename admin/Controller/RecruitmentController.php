@@ -157,8 +157,12 @@ class RecruitmentController extends AppController {
 
     function add() {
         if (!empty($this->data)) {
+            
+             $data = $this->request->data;
+             // $slug = $this->Link->changeSlug('dis con mẹ mày');
+             //    var_dump($slug);die;
             $this->Recruitment->create();
-            $data = $this->request->data;
+           
 
             /**
              * Upload file tuy bien
@@ -374,7 +378,9 @@ class RecruitmentController extends AppController {
 
     // sua tin da dang
     function edit($id = null) {
+
         if (!$id && empty($this->request->data)) {
+
             $this->Session->setFlash(__('Không tồn tại ', true));
             if ($this->Session->check('pagenew')) {
                 $this->redirect($this->Session->read('pagenew'));

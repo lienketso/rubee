@@ -124,7 +124,13 @@ font-weight: bold;" id="taihosonl"><a target="_blank" href="https://rubee.com.vn
                                         
 				foreach ($menu2 as $row1) {
 					?>
-									<li style="line-height: 27px;" >	<a style="font-size: 16px;" href="<?php echo DOMAIN?>ct-dich-vu/<?php echo $row1['Recruitment']['id']?>/<?php echo $row1['Recruitment']['alias'].'.html'?>"><?php echo $row1['Recruitment']["name$duoi"]?></a></li>
+									<li style="line-height: 27px;" >
+										<?php if($row1['Recruitment']['slug']==''): ?>	
+										<a style="font-size: 16px;" href="<?php echo DOMAIN?>ct-dich-vu/<?php echo $row1['Recruitment']['id']?>/<?php echo $row1['Recruitment']['alias'].'.html'?>"><?php echo $row1['Recruitment']["name$duoi"]?></a>
+										<?php else: ?>
+											<a style="font-size: 16px;" target="_blank" href="<?php echo $row1['Recruitment']['slug']  ?>"><?php echo $row1['Recruitment']["name$duoi"]?></a>
+										<?php endif; ?>
+									</li>
 <?php } ?>
 									</div>
 					

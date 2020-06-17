@@ -39,6 +39,10 @@
                     <td><?php echo $this->Form->input('Recruitment.alias',array('label'=>'','class'=>'text-input alias-input','maxlength' => '250','id' => 'idalias'));?> <img width="16" height="16" alt="" onclick="get_alias();" style="cursor: pointer; vertical-align: middle;" src="<?php echo DOMAINAD; ?>images/refresh.png"></td>
                 </tr>
                 <tr>
+                    <td class="label">Đường dẫn ngoài ( Nếu có ) : </td>
+                    <td><?php echo $this->Form->input('Recruitment.slug',array('label'=>'','class'=>'text-input medium-input', 'placeHolder'=>'ex : https://rubee.com.vn','maxlength' => '250','id' => 'idslug'));?></td>
+                </tr>
+                <tr>
                     <td class="label">Thuộc danh mục:</td>
                     <td>
                         <select name="data[Recruitment][cat_id]" id="jumpMenu">

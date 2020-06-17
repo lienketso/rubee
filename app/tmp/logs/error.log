@@ -470,3 +470,61 @@ ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
 #14 C:\xampp\htdocs\rubee\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
 #15 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #16 {main}
+2020-06-16 06:08:18 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 06:08:22 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 06:11:23 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 06:11:24 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 06:11:24 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 06:11:53 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 06:11:53 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 06:11:54 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 10:22:57 Error: [MissingTableException] Table settings for model Setting was not found in datasource default.
+#0 C:\xampp\htdocs\rubee\lib\Cake\Model\Model.php(3179): Model->setSource('settings')
+#1 C:\xampp\htdocs\rubee\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\xampp\htdocs\rubee\app\Controller\HomeController.php(18): Model->find('first')
+#3 [internal function]: HomeController->beforeFilter(Object(CakeEvent))
+#4 C:\xampp\htdocs\rubee\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#5 C:\xampp\htdocs\rubee\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#6 C:\xampp\htdocs\rubee\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#7 C:\xampp\htdocs\rubee\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2020-06-16 10:22:57 Error: Fatal Error (1): Call to a member function fetch_assoc() on boolean in [C:\xampp\htdocs\rubee\app\View\Layouts\default.ctp, line 6]
+2020-06-16 10:22:57 Error: [FatalErrorException] Call to a member function fetch_assoc() on boolean
+#0 C:\xampp\htdocs\rubee\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\rubee\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\rubee\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2020-06-16 10:31:07 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 10:31:08 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 10:32:06 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 10:32:06 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2020-06-16 10:32:17 Error: [MissingControllerException] Controller class NullController could not be found.
+#0 C:\xampp\htdocs\rubee\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

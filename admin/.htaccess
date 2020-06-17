@@ -1,20 +1,5 @@
- <IfModule mod_rewrite.c>
-    RewriteEngine on
-   
-    RewriteRule    ^$    webroot/    [L]
-    RewriteRule    (.*) webroot/$1    [L]
-    
-    ExpiresActive On
-    # Expires after 1 month
-    <filesMatch ".(gif|png|jpg|jpeg|ico|pdf|js|htm|html)$">
-    Header set Cache-Control "max-age=2592000"
-    </filesMatch>
-    # Expires after 7 day
-    <filesMatch ".(css)$">
-    Header set Cache-Control "max-age=604800"
-    </filesMatch>
-    # Expires after 1 hour
-    <filesMatch ".(txt)$">
-    Header set Cache-Control "max-age=3600"
-    </filesMatch>
- </IfModule>
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^$    webroot/    [L]
+    RewriteRule (.*) webroot/$1    [L]
+</IfModule>

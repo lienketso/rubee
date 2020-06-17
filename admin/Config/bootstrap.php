@@ -1,8 +1,8 @@
 <?php
-define('DOMAINAD','https://'.$_SERVER["HTTP_HOST"].'/admin/');
-define('DOMAIN','https://'.$_SERVER["HTTP_HOST"].'/');
+define('DOMAINAD','http://'.$_SERVER["HTTP_HOST"].'/rubee/admin/');
+define('DOMAIN','http://'.$_SERVER["HTTP_HOST"].'/rubee/');
 define('IMAGEAD', DOMAINAD . IMAGES_URL);
-define('IMAGE','https://'.$_SERVER["HTTP_HOST"].'/');
+define('IMAGE','http://'.$_SERVER["HTTP_HOST"].'/rubee/');
 /**
  * This file is loaded automatically by the app/webroot/index.php file after core.php
  *

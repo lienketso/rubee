@@ -67,9 +67,9 @@ class DATABASE_CONFIG {
 		//'password' => '37xwp9LuJnu',
 		//'database' => 'rubeevn_db',
 
-		'login' => 'rubee_database',
-		'password' => '75W00jW9',
-		'database' => 'rubee_database',
+		'login' => 'root',
+		'password' => '',
+		'database' => 'rubee',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);

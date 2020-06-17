@@ -33,7 +33,10 @@
 /app/webroot/thuonghieu
 /app/webroot/to-roi
 /app/webroot/website
-
+/app/tmp/cache
+/app/webroot/tmp
+/admin/tmp/cache
+/admin/webroot/cache
 
 
 
