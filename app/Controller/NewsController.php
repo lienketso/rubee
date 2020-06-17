@@ -605,7 +605,8 @@ class NewsController extends AppController {
 
         if(isset($_POST['txtsearch'])) {
 
-        $keyword=$_POST['txtsearch'];$this->Session->write('txtsearchnews',$keyword);
+        $keyword=htmlspecialchars($_POST['txtsearch']);
+        $this->Session->write('txtsearchnews',$keyword);
 
         }
 

@@ -298,7 +298,8 @@ function get_product($id = null) {
 
         if(isset($_POST['txtsearch'])) {
 
-		$keyword=$_POST['txtsearch'];$this->Session->write('txtsearch',$keyword);
+		$keyword=htmlspecialchars($_POST['txtsearch']);
+        $this->Session->write('txtsearch',$keyword);
 
 		}
 
