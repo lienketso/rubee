@@ -3,6 +3,7 @@ session_start();
 define('DOMAINAD','http://'.$_SERVER["HTTP_HOST"].'/rubee/admin/');
 define('DOMAIN','http://'.$_SERVER["HTTP_HOST"].'/rubee/');
 define('IMAGEAD', DOMAINAD . IMAGES_URL);
+
 CakePlugin::loadAll();
 /**
  * This file is loaded automatically by the app/webroot/index.php file after core.php

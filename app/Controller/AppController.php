@@ -21,7 +21,6 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 App::uses('Controller', 'Controller');
-
 /**
  * Application Controller
  *
@@ -32,6 +31,8 @@ App::uses('Controller', 'Controller');
  * @link http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+
 
 	public function beforeFilter() {
 
@@ -50,10 +51,67 @@ class AppController extends Controller {
 		// else {  
 		// 	return true;
 		// }  
+		if(isset($_REQUEST)){
+			  //print_r($_REQUEST);
+			// $dbs = new mysqli('localhost', 'root', '', 'rubee');
+	 	// 	$this->write_mysql_log('Insert data',$dbs);
+		}
+	}
 
 
+	// $dbs = new mysqli('localhost', 'root', '', 'rubee');
+	// $this->write_mysql_log('Insert data',$dbs);
+	
+
+public function write_mysql_log($message, $dbs)
+{
+  // Check database connection
+	if( ($dbs instanceof MySQLi) == false) {
+		return array('status' => false, 'message' => 'MySQL connection is invalid');
+	}
+
+  // Check message
+	if($message == '') {
+		return array('status' => false, 'message' => 'Message is empty');
+	}
+
+  // Get IP address
+	if( ($remote_addr = $_SERVER['REMOTE_ADDR']) == '') {
+		$remote_addr = "REMOTE_ADDR_UNKNOWN";
+	}
+
+  // Get requested script
+	if( ($request_uri = $_SERVER['REQUEST_URI']) == '') {
+		$request_uri = "REQUEST_URI_UNKNOWN";
+	}
+
+  // Escape values
+	$message     = $dbs->escape_string($message);
+	$remote_addr = $dbs->escape_string($remote_addr);
+	$request_uri = $dbs->escape_string($request_uri);
+
+  // Construct query
+	$sql = "INSERT INTO my_log (remote_addr, request_uri, message) VALUES('$remote_addr', '$request_uri','$message')";
+
+  // Execute query and save data
+	$result = $dbs->query($sql);
+
+	if($result) {
+		return array('status' => true);  
+	}
+	else {
+		return array('status' => false, 'message' => 'Unable to write to the database');
 	}
 }
+
+
+
+
+
+}
+
+
+
 
 
       /** if(isset($_GET['language'])) {

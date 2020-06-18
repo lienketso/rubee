@@ -24,9 +24,9 @@ class HomeController extends AppController {
 		
 		if($_POST['email']!='' && $_POST['content'] !='') {
 		
-			$data['Comment']['email']=$_POST['email'];
+			$data['Comment']['email']= htmlspecialchars($_POST['email']);
 		//	$data['Comment']['title']=$_POST['title'];
-			$data['Comment']['content']=$_POST['content'];
+			$data['Comment']['content']=htmlspecialchars($_POST['content']);
 			$data['Comment']['product_id']=$product_id;
 			$data['Comment']['status']=0;
 			$this->Comment->save($data['Comment']);
@@ -147,7 +147,7 @@ function hoidap(){
 
     function search() {
         if (isset($_POST['key'])) {
-            $this->Session->write('key',$_POST['key']);
+            $this->Session->write('key',htmlspecialchars($_POST['key']));
         }
         $name = $this->Session->read('key');
         mysql_query("SET names utf8");

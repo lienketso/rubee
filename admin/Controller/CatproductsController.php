@@ -15,6 +15,7 @@ class CatproductsController extends AppController {
 
     public $name = 'Catproducts';
     public $uses = array();
+    
 
     public function beforeFilter() {
         parent::beforeFilter();
@@ -53,6 +54,8 @@ class CatproductsController extends AppController {
      */
     function add($id = null) {
         if (!empty($this->request->data)) {
+            // var_dump($this->request->data);die;
+            
             /**
              * Upload file tuy bien
              * @author : Trung Tong

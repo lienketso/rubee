@@ -187,11 +187,11 @@ class CataloguesrecController extends AppController {
    function search() {
         if ($this->request->is('post')) {
             // Lay du lieu tu form
-            $listCat = $_REQUEST['listCat'];
+            $listCat = htmlspecialchars($_REQUEST['listCat']);
             $this->Session->write('catId', $listCat);
 
             // Get keyword
-            $keyword = $_REQUEST['keyword'];
+            $keyword = htmlspecialchars($_REQUEST['keyword']);
             $this->Session->write('keyword', $keyword);
         } else {
             $listCat = $this->Session->read('catId');
